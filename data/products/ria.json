@@ -1,0 +1,15 @@
+{
+  "slug": "ria",
+  "name": "Ria",
+  "category": "Side",
+  "price": null,
+  "short_description": "A compact side table with a soft, rounded silhouette.",
+  "stones": [
+    "Calacatta Viola"
+  ],
+  "lead_time_weeks": "10-12",
+  "dimensions": "Dia 40 x H 55 cm",
+  "primary_image_filename": "ria-side.jpg",
+  "spec_sheet_filename": "ria-side-spec-sheet.pdf",
+  "status": "draft"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "orla",
+  "name": "Orla",
+  "category": "Console",
+  "price": null,
+  "short_description": "A slender console table for hallway or gallery placement.",
+  "stones": [
+    "Calacatta Viola",
+    "Bianco Perlino"
+  ],
+  "lead_time_weeks": "10-12",
+  "dimensions": "L 150 x W 35 x H 80 cm",
+  "primary_image_filename": "orla-console.jpg",
+  "spec_sheet_filename": "orla-spec-sheet.pdf",
+  "status": "draft"
+}

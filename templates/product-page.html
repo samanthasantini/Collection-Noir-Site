@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ product.name }} — Collection Noir</title>
+  <link rel="stylesheet" href="/styles/tokens.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  {% include "partials/header.html" %}
+
+  <main class="product">
+    <div class="product-image">
+      <img src="/assets/products/{{ product.primary_image_filename }}" alt="{{ product.name }}">
+    </div>
+
+    <div class="product-details">
+      <h1>{{ product.name }}</h1>
+      {% if product.price %}
+        <p class="price">{{ product.price }}</p>
+      {% else %}
+        <p class="price price--tbc">Price on enquiry</p>
+      {% endif %}
+
+      <p class="description">{{ product.short_description }}</p>
+
+      <div class="stones">
+        {% for stone in product.stones %}
+          {% if stone in stones %}
+            <span class="stone-swatch" title="{{ stones[stone].label }}">
+              <img src="/assets/stones/{{ stones[stone].swatch }}" alt="{{ stones[stone].label }}">
+            </span>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <p class="dimensions">{{ product.dimensions }}</p>
+      <p class="lead-time">Lead time: {{ product.lead_time_weeks }} weeks</p>
+
+      <a class="enquire" href="/enquire?product={{ product.slug }}">Enquire</a>
+
+      {% if product.spec_sheet_filename %}
+        <a class="spec-sheet" href="/spec-sheets/{{ product.spec_sheet_filename }}" download>Download Spec Sheet</a>
+      {% endif %}
+    </div>
+  </main>
+
+  {% include "partials/footer.html" %}
+</body>
+</html>

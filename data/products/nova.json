@@ -1,0 +1,16 @@
+{
+  "slug": "nova",
+  "name": "Nova",
+  "category": "Plinth",
+  "price": null,
+  "short_description": "A plinth and pedestal in one design, offered in two sizes.",
+  "stones": [
+    "Nero Marquina",
+    "Bianco Perlino"
+  ],
+  "lead_time_weeks": "10-12",
+  "dimensions": "Two sizes available",
+  "primary_image_filename": "nova-plinth.jpg",
+  "spec_sheet_filename": "nova-spec-sheet.pdf",
+  "status": "draft"
+}

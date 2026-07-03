@@ -1,0 +1,17 @@
+{
+  "slug": "roma",
+  "name": "Roma",
+  "category": "Dining",
+  "price": null,
+  "short_description": "A long rectangular dining table, carved for scale and stillness.",
+  "stones": [
+    "Calacatta Viola",
+    "Bianco Perlino",
+    "Nero Marquina"
+  ],
+  "lead_time_weeks": "12-16",
+  "dimensions": "L 280 x W 110 x H 74 cm",
+  "primary_image_filename": "roma-dining.jpg",
+  "spec_sheet_filename": "roma-spec-sheet.pdf",
+  "status": "draft"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "oria-side",
+  "name": "Oria",
+  "category": "Side",
+  "price": null,
+  "short_description": "A side table version of Oria, cross-linked with the plinth edition.",
+  "stones": [
+    "Nero Marquina"
+  ],
+  "lead_time_weeks": "10-12",
+  "dimensions": "Dia 38 x H 52 cm",
+  "primary_image_filename": "oria-side.jpg",
+  "spec_sheet_filename": "oria-side-spec-sheet.pdf",
+  "status": "draft"
+}

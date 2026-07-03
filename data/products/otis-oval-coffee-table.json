@@ -1,0 +1,17 @@
+{
+  "slug": "otis-oval-coffee-table",
+  "name": "Otis Oval",
+  "category": "Coffee",
+  "price": null,
+  "short_description": "An oval coffee table with a sculptural single-stone form.",
+  "stones": [
+    "Bianco Perlino",
+    "Cipollino Verde",
+    "Nero Marquina"
+  ],
+  "lead_time_weeks": "10-12",
+  "dimensions": "L 130 x W 70 x H 35 cm",
+  "primary_image_filename": "otis-oval-coffee-table.jpg",
+  "spec_sheet_filename": "otis-oval-coffee-table-spec-sheet.pdf",
+  "status": "live"
+}

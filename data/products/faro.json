@@ -1,0 +1,16 @@
+{
+  "slug": "faro",
+  "name": "Faro",
+  "category": "Dining",
+  "price": null,
+  "short_description": "A refined dining table with a tapered stone base.",
+  "stones": [
+    "Calacatta Viola",
+    "Bianco Perlino"
+  ],
+  "lead_time_weeks": "12-16",
+  "dimensions": "L 240 x W 100 x H 74 cm",
+  "primary_image_filename": "faro-dining.jpg",
+  "spec_sheet_filename": "faro-spec-sheet.pdf",
+  "status": "draft"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "ida",
+  "name": "Ida",
+  "category": "Coffee",
+  "price": null,
+  "short_description": "A fixed Travertine and Onyx design, structural rather than variant-led.",
+  "stones": [
+    "Travertine & Onyx"
+  ],
+  "lead_time_weeks": "10-12",
+  "dimensions": "L 110 x W 60 x H 33 cm",
+  "primary_image_filename": "ida-coffee.jpg",
+  "spec_sheet_filename": "ida-spec-sheet.pdf",
+  "status": "draft"
+}

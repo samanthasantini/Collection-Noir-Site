@@ -1,0 +1,16 @@
+{
+  "slug": "kaia",
+  "name": "Kaia",
+  "category": "Bedside",
+  "price": null,
+  "short_description": "A bedside table scaled for proportion and quiet presence.",
+  "stones": [
+    "Bianco Perlino",
+    "Calacatta Viola"
+  ],
+  "lead_time_weeks": "10-12",
+  "dimensions": "L 45 x W 40 x H 55 cm",
+  "primary_image_filename": "kaia-bedside.jpg",
+  "spec_sheet_filename": "kaia-spec-sheet.pdf",
+  "status": "draft"
+}

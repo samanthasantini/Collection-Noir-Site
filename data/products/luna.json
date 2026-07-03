@@ -1,0 +1,15 @@
+{
+  "slug": "luna",
+  "name": "Luna",
+  "category": "Dining",
+  "price": null,
+  "short_description": "Stillness in stone. Calacatta Arni carved into a pill form on a double T-frame base.",
+  "stones": [
+    "Calacatta Arni"
+  ],
+  "lead_time_weeks": "12-16",
+  "dimensions": "L 260 x W 120 x H 74 cm",
+  "primary_image_filename": "luna-dining.jpg",
+  "spec_sheet_filename": "luna-spec-sheet.pdf",
+  "status": "draft"
+}

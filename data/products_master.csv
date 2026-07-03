@@ -1,0 +1,16 @@
+slug,name,category,price,short_description,stone_1,stone_2,stone_3,lead_time_weeks,dimensions,primary_image_filename,spec_sheet_filename,status
+roma,Roma,Dining,,"A long rectangular dining table, carved for scale and stillness.",Calacatta Viola,Bianco Perlino,Nero Marquina,12-16,L 280 x W 110 x H 74 cm,roma-dining.jpg,roma-spec-sheet.pdf,draft
+faro,Faro,Dining,,"A refined dining table with a tapered stone base.",Calacatta Viola,Bianco Perlino,,12-16,L 240 x W 100 x H 74 cm,faro-dining.jpg,faro-spec-sheet.pdf,draft
+luna,Luna,Dining,,"Stillness in stone. Calacatta Arni carved into a pill form on a double T-frame base.",Calacatta Arni,,,12-16,L 260 x W 120 x H 74 cm,luna-dining.jpg,luna-spec-sheet.pdf,draft
+otis-oval-coffee-table,Otis Oval,Coffee,,"An oval coffee table with a sculptural single-stone form.",Bianco Perlino,Cipollino Verde,Nero Marquina,10-12,L 130 x W 70 x H 35 cm,otis-oval-coffee-table.jpg,otis-oval-coffee-table-spec-sheet.pdf,live
+otis-coffee,Otis,Coffee,,"A round coffee table companion to the Otis side table.",Bianco Perlino,Cipollino Verde,,10-12,Dia 90 x H 35 cm,otis-coffee.jpg,otis-coffee-spec-sheet.pdf,draft
+ida,Ida,Coffee,,"A fixed Travertine and Onyx design, structural rather than variant-led.",Travertine & Onyx,,,10-12,L 110 x W 60 x H 33 cm,ida-coffee.jpg,ida-spec-sheet.pdf,draft
+orla,Orla,Console,,"A slender console table for hallway or gallery placement.",Calacatta Viola,Bianco Perlino,,10-12,L 150 x W 35 x H 80 cm,orla-console.jpg,orla-spec-sheet.pdf,draft
+esme,Esme,Console,,"A console table with fabricated triangular-leg geometry.",Bianco Perlino,Nero Marquina,,10-12,L 140 x W 35 x H 80 cm,esme-console.jpg,esme-spec-sheet.pdf,draft
+otis-side,Otis,Side,,"A round side table companion to the Otis coffee table.",Bianco Perlino,Cipollino Verde,,10-12,Dia 45 x H 50 cm,otis-side.jpg,otis-side-spec-sheet.pdf,draft
+ria,Ria,Side,,"A compact side table with a soft, rounded silhouette.",Calacatta Viola,,,10-12,Dia 40 x H 55 cm,ria-side.jpg,ria-side-spec-sheet.pdf,draft
+alaia,Alaia,Side,,"A sculptural side table with a fluted stone base.",Bianco Perlino,,,10-12,Dia 42 x H 50 cm,alaia-side.jpg,alaia-side-spec-sheet.pdf,draft
+oria-side,Oria,Side,,"A side table version of Oria, cross-linked with the plinth edition.",Nero Marquina,,,10-12,Dia 38 x H 52 cm,oria-side.jpg,oria-side-spec-sheet.pdf,draft
+kaia,Kaia,Bedside,,"A bedside table scaled for proportion and quiet presence.",Bianco Perlino,Calacatta Viola,,10-12,L 45 x W 40 x H 55 cm,kaia-bedside.jpg,kaia-spec-sheet.pdf,draft
+nova,Nova,Plinth,,"A plinth and pedestal in one design, offered in two sizes.",Nero Marquina,Bianco Perlino,,10-12,Two sizes available,nova-plinth.jpg,nova-spec-sheet.pdf,draft
+oria-plinth,Oria,Plinth,,"A plinth version of Oria, cross-linked with the side table edition.",Nero Marquina,,,10-12,Dia 38 x H 45 cm,oria-plinth.jpg,oria-plinth-spec-sheet.pdf,draft

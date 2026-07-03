@@ -1,0 +1,16 @@
+{
+  "slug": "esme",
+  "name": "Esme",
+  "category": "Console",
+  "price": null,
+  "short_description": "A console table with fabricated triangular-leg geometry.",
+  "stones": [
+    "Bianco Perlino",
+    "Nero Marquina"
+  ],
+  "lead_time_weeks": "10-12",
+  "dimensions": "L 140 x W 35 x H 80 cm",
+  "primary_image_filename": "esme-console.jpg",
+  "spec_sheet_filename": "esme-spec-sheet.pdf",
+  "status": "draft"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "otis-coffee",
+  "name": "Otis",
+  "category": "Coffee",
+  "price": null,
+  "short_description": "A round coffee table companion to the Otis side table.",
+  "stones": [
+    "Bianco Perlino",
+    "Cipollino Verde"
+  ],
+  "lead_time_weeks": "10-12",
+  "dimensions": "Dia 90 x H 35 cm",
+  "primary_image_filename": "otis-coffee.jpg",
+  "spec_sheet_filename": "otis-coffee-spec-sheet.pdf",
+  "status": "draft"
+}

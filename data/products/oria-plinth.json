@@ -1,0 +1,15 @@
+{
+  "slug": "oria-plinth",
+  "name": "Oria",
+  "category": "Plinth",
+  "price": null,
+  "short_description": "A plinth version of Oria, cross-linked with the side table edition.",
+  "stones": [
+    "Nero Marquina"
+  ],
+  "lead_time_weeks": "10-12",
+  "dimensions": "Dia 38 x H 45 cm",
+  "primary_image_filename": "oria-plinth.jpg",
+  "spec_sheet_filename": "oria-plinth-spec-sheet.pdf",
+  "status": "draft"
+}

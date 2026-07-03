@@ -1,0 +1,15 @@
+{
+  "slug": "alaia",
+  "name": "Alaia",
+  "category": "Side",
+  "price": null,
+  "short_description": "A sculptural side table with a fluted stone base.",
+  "stones": [
+    "Bianco Perlino"
+  ],
+  "lead_time_weeks": "10-12",
+  "dimensions": "Dia 42 x H 50 cm",
+  "primary_image_filename": "alaia-side.jpg",
+  "spec_sheet_filename": "alaia-side-spec-sheet.pdf",
+  "status": "draft"
+}

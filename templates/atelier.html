@@ -10,27 +10,27 @@
 <body>
   {% include "partials/header.html" %}
 
-  <section class="atelier-hero">
-    <h1 class="atelier-headline">{{ atelier.hero_pre }}<em>{{ atelier.hero_em }}</em></h1>
+  <section class="atelier-statement">
+    <h1 class="statement-text">{{ atelier.statement_1 }}</h1>
   </section>
 
-  <section class="atelier-story">
-    {% for para in atelier.paragraphs %}
-    <p class="atelier-paragraph">{{ para }}</p>
-    {% endfor %}
+  <section class="atelier-narrative">
+    <p class="narrative-text">{{ atelier.narrative_1 }}</p>
+  </section>
+
+  <section class="atelier-statement">
+    <h2 class="statement-text">{{ atelier.statement_2 }}</h2>
+  </section>
+
+  <section class="atelier-narrative">
+    <p class="narrative-text">{{ atelier.narrative_2 }}</p>
   </section>
 
   <section class="founder-block">
     <div class="founder-image-placeholder"></div>
-    <div class="founder-text">
-      <p class="founder-name">{{ atelier.founder.name }}</p>
-      <p class="founder-role">{{ atelier.founder.role }}</p>
-      {% if atelier.founder.quote %}
-        <p class="founder-quote">"{{ atelier.founder.quote }}"</p>
-      {% else %}
-        <p class="founder-quote founder-quote--pending">[Founder quote pending sign-off]</p>
-      {% endif %}
-    </div>
+    <blockquote class="founder-quote">&ldquo;{{ atelier.founder.quote }}&rdquo;</blockquote>
+    <p class="founder-name">{{ atelier.founder.name }}</p>
+    <p class="founder-role">{{ atelier.founder.role }}</p>
   </section>
 
   <section class="designers-section">

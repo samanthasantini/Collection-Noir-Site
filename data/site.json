@@ -38,17 +38,14 @@
     "intro": "Browse by category, or enquire directly for a bespoke commission."
   },
   "atelier": {
-    "hero_pre": "Designed in London, made by ",
-    "hero_em": "Italian hands",
-    "paragraphs": [
-      "Collection Noir Atelier was founded in London in 2020 by Samantha Santini, an interior designer with over ten years specifying furniture for private clients before founding the brand.",
-      "Every commission begins as a drawing in the London atelier. From there, it is realised by hands trained over generations. Italian craftsmanship closes that gap. It always has.",
-      "The collection extends beyond tables into case goods: bedside tables and storage pieces that bring stone, timber and bronze together. Every piece is made to order."
-    ],
+    "statement_1": "Designed in London. Made by Italian hands.",
+    "narrative_1": "Collection Noir Atelier was founded in London in 2020 by Samantha Santini, an interior designer with over ten years specifying furniture for private clients before founding the brand.",
+    "statement_2": "No two pieces leave the atelier the same. That is craft, not inconsistency.",
+    "narrative_2": "Every commission begins as a drawing in the London atelier. From there, it is realised by hands trained over generations. The collection extends beyond tables into case goods: bedside tables and storage pieces that bring stone, timber and bronze together. Every piece is made to order.",
     "founder": {
       "name": "Samantha Santini",
       "role": "Founder & Designer, Collection Noir Atelier, London",
-      "quote": null
+      "quote": "I spent years specifying furniture for clients and consistently finding that what existed in the market either compromised on material or on design. Collection Noir exists because that gap should not."
     },
     "designers": {
       "heading": "For designers",

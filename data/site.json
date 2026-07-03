@@ -16,8 +16,8 @@
     "cta_href": "/enquire"
   },
   "footer": {
-    "address_line_1": "World's End Studios",
-    "address_line_2": "London",
+    "address_line_1": "132-134 Lots Road, Worlds End Studios",
+    "address_line_2": "Unit 124, SW10 0RJ",
     "legal_links": [
       {"label": "Terms & Conditions", "href": "/legal/terms"},
       {"label": "Shipping & Delivery", "href": "/legal/shipping"},

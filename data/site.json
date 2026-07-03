@@ -23,5 +23,47 @@
       {"label": "Shipping & Delivery", "href": "/legal/shipping"},
       {"label": "Returns & Cancellations", "href": "/legal/returns"}
     ]
+  },
+  "categories": [
+    {"name": "Dining Tables", "slug": "dining", "count": 3},
+    {"name": "Coffee Tables", "slug": "coffee", "count": 3},
+    {"name": "Console Tables", "slug": "console", "count": 2},
+    {"name": "Side Tables", "slug": "side", "count": 4},
+    {"name": "Bedside Tables", "slug": "bedside", "count": 1},
+    {"name": "Plinths", "slug": "plinths", "count": 2}
+  ],
+  "collection_overview": {
+    "eyebrow": "The Collection",
+    "title": "Every piece, made to order",
+    "intro": "Browse by category, or enquire directly for a bespoke commission."
+  },
+  "atelier": {
+    "hero_pre": "Designed in London, made by ",
+    "hero_em": "Italian hands",
+    "paragraphs": [
+      "Collection Noir Atelier was founded in London in 2020 by Samantha Santini, an interior designer with over ten years specifying furniture for private clients before founding the brand.",
+      "Every commission begins as a drawing in the London atelier. From there, it's realised by hands trained over generations \u2014 Italian craftsmanship closes that gap. It always has.",
+      "The collection extends beyond tables into case goods \u2014 bedside tables and storage pieces that bring stone, timber and bronze together. Every piece is made to order."
+    ],
+    "founder": {
+      "name": "Samantha Santini",
+      "role": "Founder & Designer \u2014 Collection Noir Atelier, London",
+      "quote": null
+    },
+    "designers": {
+      "heading": "For designers",
+      "title": "A working relationship, not a transaction",
+      "body": "Collection Noir Atelier works directly with interior designers and architects on a project-by-project basis \u2014 trade pricing, a dedicated point of contact, and the kind of specification support a client presentation actually needs. If you specify for a living, this is built for how you work.",
+      "cta_text": "Register for trade access",
+      "cta_href": "/trade"
+    },
+    "press": {
+      "heading": "As seen in",
+      "outlets": ["Vogue Living", "Elle Decor", "Livingetc", "Homes & Garden", "Sheerluxe"]
+    },
+    "continue_links": [
+      {"title": "The Materials", "desc": "A guide to the stones, timbers and metals we work with.", "cta": "View materials", "href": "/materials"},
+      {"title": "Caring for your piece", "desc": "Guidance for stone, timber and metal, by material.", "cta": "View care guide", "href": "/care"}
+    ]
   }
 }

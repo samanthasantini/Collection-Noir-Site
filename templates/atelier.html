@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Atelier — Collection Noir</title>
+  <link rel="stylesheet" href="/styles/tokens.css">
+  <link rel="stylesheet" href="/styles/atelier.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  {% include "partials/header.html" %}
+
+  <section class="atelier-hero">
+    <h1 class="atelier-headline">{{ atelier.hero_pre }}<em>{{ atelier.hero_em }}</em></h1>
+  </section>
+
+  <section class="atelier-story">
+    {% for para in atelier.paragraphs %}
+    <p class="atelier-paragraph">{{ para }}</p>
+    {% endfor %}
+  </section>
+
+  <section class="founder-block">
+    <div class="founder-image-placeholder"></div>
+    <div class="founder-text">
+      <p class="founder-name">{{ atelier.founder.name }}</p>
+      <p class="founder-role">{{ atelier.founder.role }}</p>
+      {% if atelier.founder.quote %}
+        <p class="founder-quote">"{{ atelier.founder.quote }}"</p>
+      {% else %}
+        <p class="founder-quote founder-quote--pending">[Founder quote pending sign-off]</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="designers-section">
+    <p class="section-label">{{ atelier.designers.heading }}</p>
+    <h2 class="designers-title">{{ atelier.designers.title }}</h2>
+    <p class="designers-body">{{ atelier.designers.body }}</p>
+    <a class="designers-cta" href="{{ atelier.designers.cta_href }}">{{ atelier.designers.cta_text }}</a>
+  </section>
+
+  <section class="press-section">
+    <p class="section-label">{{ atelier.press.heading }}</p>
+    <div class="press-row">
+      {% for outlet in atelier.press.outlets %}
+      <span class="press-pill">{{ outlet }}</span>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="continue-section">
+    <p class="section-label">Continue exploring</p>
+    <div class="links-block">
+      {% for link in atelier.continue_links %}
+      <a class="link-card" href="{{ link.href }}">
+        <p class="link-title">{{ link.title }}</p>
+        <p class="link-desc">{{ link.desc }}</p>
+        <p class="link-cta">{{ link.cta }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <footer class="homepage-footer">
+    <div class="footer-left">
+      <p class="footer-wordmark">Collection Noir</p>
+      <p class="footer-address">{{ site.footer.address_line_1 }}</p>
+      <p class="footer-address">{{ site.footer.address_line_2 }}</p>
+    </div>
+    <div class="footer-right">
+      {% for link in site.footer.legal_links %}
+        <a href="{{ link.href }}">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+  </footer>
+</body>
+</html>

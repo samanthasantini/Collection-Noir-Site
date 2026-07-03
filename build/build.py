@@ -64,6 +64,32 @@ def build_homepage(env, all_products):
     print(f"Built homepage              -> {out_path.relative_to(ROOT)}")
 
 
+def build_collection_overview(env):
+    site = load_json(DATA_SITE)
+    template = env.get_template("collection-overview.html")
+    html = template.render(
+        site=site,
+        overview=site["collection_overview"],
+        categories=site["categories"],
+    )
+    out_dir = PUBLIC / "collection"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / "index.html"
+    out_path.write_text(html, encoding="utf-8")
+    print(f"Built collection overview   -> {out_path.relative_to(ROOT)}")
+
+
+def build_atelier(env):
+    site = load_json(DATA_SITE)
+    template = env.get_template("atelier.html")
+    html = template.render(site=site, atelier=site["atelier"])
+    out_dir = PUBLIC / "atelier"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / "index.html"
+    out_path.write_text(html, encoding="utf-8")
+    print(f"Built atelier                -> {out_path.relative_to(ROOT)}")
+
+
 def build():
     copy_static()
 
@@ -90,6 +116,8 @@ def build():
         print(f"Built {product['slug']:<25} -> {out_path.relative_to(ROOT)}")
 
     build_homepage(env, all_products)
+    build_collection_overview(env)
+    build_atelier(env)
 
 
 if __name__ == "__main__":

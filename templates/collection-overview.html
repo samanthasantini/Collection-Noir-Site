@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Collection — Collection Noir</title>
+  <link rel="stylesheet" href="/styles/tokens.css">
+  <link rel="stylesheet" href="/styles/collection.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  {% include "partials/header.html" %}
+
+  <section class="collection-header">
+    <p class="eyebrow">{{ overview.eyebrow }}</p>
+    <h1 class="collection-title">{{ overview.title }}</h1>
+    <p class="collection-intro">{{ overview.intro }}</p>
+  </section>
+
+  <section class="category-grid">
+    {% for category in categories %}
+    <a class="category-card" href="/collection/{{ category.slug }}/">
+      <div class="category-image-placeholder">
+        <span class="count-badge">{{ category.count }} piece{{ 's' if category.count != 1 else '' }}</span>
+      </div>
+      <p class="category-name">{{ category.name }}</p>
+    </a>
+    {% endfor %}
+  </section>
+
+  <footer class="homepage-footer">
+    <div class="footer-left">
+      <p class="footer-wordmark">Collection Noir</p>
+      <p class="footer-address">{{ site.footer.address_line_1 }}</p>
+      <p class="footer-address">{{ site.footer.address_line_2 }}</p>
+    </div>
+    <div class="footer-right">
+      {% for link in site.footer.legal_links %}
+        <a href="{{ link.href }}">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+  </footer>
+</body>
+</html>

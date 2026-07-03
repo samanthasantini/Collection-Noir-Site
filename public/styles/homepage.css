@@ -147,6 +147,16 @@
   background: var(--color-ivory);
 }
 
+.footer-wordmark {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-ink);
+  margin: 0 0 4px 0;
+}
+
 .footer-address {
   font-family: var(--font-display);
   font-weight: 300;
@@ -161,6 +171,7 @@
   flex-direction: column;
   gap: 4px;
   align-items: flex-end;
+  padding-top: 1px;
 }
 
 .footer-right a {

@@ -26,3 +26,44 @@ a.enquire {
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 48px;
+}
+
+.wordmark {
+  display: block;
+  line-height: 0;
+}
+
+.logo-image {
+  height: 22px;
+  width: auto;
+  display: block;
+}
+
+nav {
+  display: flex;
+  gap: 32px;
+}
+
+nav a,
+footer a,
+.description a,
+a.spec-sheet {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-bark);
+  text-decoration: none;
+}
+
+nav a:hover,
+footer a:hover {
+  color: var(--color-ink);
+}

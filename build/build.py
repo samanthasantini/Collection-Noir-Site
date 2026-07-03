@@ -19,6 +19,7 @@ DATA_STONES = ROOT / "data" / "stones.json"
 DATA_SITE = ROOT / "data" / "site.json"
 TEMPLATES = ROOT / "templates"
 STYLES = ROOT / "styles"
+ASSETS = ROOT / "assets"
 PUBLIC = ROOT / "public"
 
 
@@ -28,15 +29,22 @@ def load_json(path):
 
 
 def copy_static():
-    """Copy styles/ (and, once they exist, assets/) into public/ so the
-    site actually has the CSS the templates reference. Without this step
-    every page 404s on its stylesheet and silently falls back to
-    unstyled browser defaults."""
-    dest = PUBLIC / "styles"
-    if dest.exists():
-        shutil.rmtree(dest)
-    shutil.copytree(STYLES, dest)
-    print(f"Copied styles/ -> {dest.relative_to(ROOT)}")
+    """Copy styles/ and assets/ (logo, product photography once it
+    exists) into public/ so the site actually has everything the
+    templates reference. Without this step every page 404s on its
+    stylesheet/images and silently falls back to unstyled defaults."""
+    styles_dest = PUBLIC / "styles"
+    if styles_dest.exists():
+        shutil.rmtree(styles_dest)
+    shutil.copytree(STYLES, styles_dest)
+    print(f"Copied styles/ -> {styles_dest.relative_to(ROOT)}")
+
+    if ASSETS.exists():
+        assets_dest = PUBLIC / "assets"
+        if assets_dest.exists():
+            shutil.rmtree(assets_dest)
+        shutil.copytree(ASSETS, assets_dest)
+        print(f"Copied assets/ -> {assets_dest.relative_to(ROOT)}")
 
 
 def build_homepage(env, all_products):

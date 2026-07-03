@@ -9,6 +9,7 @@ Usage:
     python3 build/build.py
 """
 import json
+import shutil
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
@@ -16,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_PRODUCTS = ROOT / "data" / "products"
 DATA_STONES = ROOT / "data" / "stones.json"
 TEMPLATES = ROOT / "templates"
+STYLES = ROOT / "styles"
 PUBLIC = ROOT / "public"
 
 
@@ -24,7 +26,21 @@ def load_json(path):
         return json.load(f)
 
 
+def copy_static():
+    """Copy styles/ (and, once they exist, assets/) into public/ so the
+    site actually has the CSS the templates reference. Without this step
+    every page 404s on its stylesheet and silently falls back to
+    unstyled browser defaults."""
+    dest = PUBLIC / "styles"
+    if dest.exists():
+        shutil.rmtree(dest)
+    shutil.copytree(STYLES, dest)
+    print(f"Copied styles/ -> {dest.relative_to(ROOT)}")
+
+
 def build():
+    copy_static()
+
     env = Environment(loader=FileSystemLoader(str(TEMPLATES)))
     template = env.get_template("product-page.html")
     stones = load_json(DATA_STONES)

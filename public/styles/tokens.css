@@ -1,0 +1,28 @@
+:root {
+  --color-ivory: #FAF8F3;
+  --color-clay: #D8C9B8;
+  --color-bark: #8A7663;
+  --color-umber: #5A4A3A;
+  --color-ink: #2B2722;
+  --font-display: 'Cormorant Garamond', serif;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-weight: 300;
+}
+
+h1, h2, .price {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-style: italic;
+}
+
+a.enquire {
+  color: var(--color-umber);
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

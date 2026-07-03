@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "tagline": "London Design. Italian Craft.",
+    "headline_pre": "Material ",
+    "headline_em": "in its",
+    "headline_post": " purest form.",
+    "subline": "Each piece is made once, made properly, and made to last.",
+    "cta_text": "View the collection",
+    "cta_href": "/collection"
+  },
+  "featured_products": ["luna", "otis-coffee", "oria-plinth"],
+  "bespoke": {
+    "heading": "Every piece begins with a conversation.",
+    "body": "Collection Noir pieces are made to order, in the stone, scale, and finish that suit the room they're going into. Bespoke commissions are welcome.",
+    "cta_text": "Begin a commission",
+    "cta_href": "/enquire"
+  },
+  "footer": {
+    "address_line_1": "World's End Studios",
+    "address_line_2": "London",
+    "legal_links": [
+      {"label": "Terms & Conditions", "href": "/legal/terms"},
+      {"label": "Shipping & Delivery", "href": "/legal/shipping"},
+      {"label": "Returns & Cancellations", "href": "/legal/returns"}
+    ]
+  }
+}

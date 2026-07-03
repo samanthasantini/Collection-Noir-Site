@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Collection Noir — London Design. Italian Craft.</title>
+  <link rel="stylesheet" href="/styles/tokens.css">
+  <link rel="stylesheet" href="/styles/homepage.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  {% include "partials/header.html" %}
+
+  <section class="hero">
+    <div class="hero-image-placeholder"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">{{ site.hero.tagline }}</p>
+      <h1 class="hero-headline">{{ site.hero.headline_pre }}<em>{{ site.hero.headline_em }}</em>{{ site.hero.headline_post }}</h1>
+      <p class="hero-subline">{{ site.hero.subline }}</p>
+      <a class="hero-cta" href="{{ site.hero.cta_href }}">{{ site.hero.cta_text }}</a>
+    </div>
+  </section>
+
+  <section class="collection">
+    <h2 class="section-heading">The Collection</h2>
+    <div class="collection-grid">
+      {% for product in featured_products %}
+      <a class="collection-card" href="/products/{{ product.slug }}/">
+        <div class="collection-card-image-placeholder"></div>
+        <p class="collection-card-name">{{ product.name }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="bespoke">
+    <div class="bespoke-text">
+      <h2 class="section-heading">{{ site.bespoke.heading }}</h2>
+      <p class="bespoke-body">{{ site.bespoke.body }}</p>
+      <a class="bespoke-cta" href="{{ site.bespoke.cta_href }}">{{ site.bespoke.cta_text }}</a>
+    </div>
+    <div class="bespoke-image-placeholder"></div>
+  </section>
+
+  <footer class="homepage-footer">
+    <div class="footer-left">
+      <p class="footer-wordmark">Collection Noir</p>
+      <p class="footer-address">{{ site.footer.address_line_1 }}</p>
+      <p class="footer-address">{{ site.footer.address_line_2 }}</p>
+    </div>
+    <div class="footer-right">
+      {% for link in site.footer.legal_links %}
+        <a href="{{ link.href }}">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+  </footer>
+</body>
+</html>

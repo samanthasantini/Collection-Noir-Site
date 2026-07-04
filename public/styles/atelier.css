@@ -1,6 +1,6 @@
-.atelier-statement {
-  padding: 56px 48px 8px;
-  text-align: center;
+.atelier-intro {
+  padding: 64px 48px 40px;
+  text-align: left;
 }
 
 .statement-text {
@@ -10,13 +10,8 @@
   font-size: clamp(26px, 3.2vw, 36px);
   line-height: 1.3;
   color: var(--color-ink);
-  max-width: 680px;
-  margin: 0 auto;
-}
-
-.atelier-narrative {
-  padding: 24px 48px 40px;
-  text-align: center;
+  max-width: 620px;
+  margin: 0 0 20px 0;
 }
 
 .narrative-text {
@@ -26,20 +21,35 @@
   line-height: 1.8;
   color: var(--color-bark);
   max-width: 560px;
-  margin: 0 auto;
 }
 
-.founder-block {
-  padding: 56px 48px 64px;
-  text-align: center;
+.founder-photo-text {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 48px;
+  padding: 40px 48px 64px;
+  align-items: center;
 }
 
 .founder-image-placeholder {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
+  width: 100%;
+  aspect-ratio: 4 / 5;
   background: linear-gradient(160deg, #D8C9B8 0%, #C4B39F 100%);
-  margin: 0 auto 28px;
+}
+
+.statement-text-inline {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--color-ink);
+  margin-bottom: 16px;
+}
+
+.founder-quote-block {
+  padding: 40px 48px 64px;
+  text-align: center;
 }
 
 .founder-quote {
@@ -70,6 +80,16 @@
   color: var(--color-bark);
 }
 
+.designers-section--right {
+  padding: 48px 48px;
+  text-align: left;
+}
+
+.designers-inner {
+  margin-left: auto;
+  max-width: 480px;
+}
+
 .section-label {
   font-family: var(--font-display);
   font-weight: 300;
@@ -88,6 +108,7 @@
 
 .continue-section {
   padding: 48px 48px;
+  text-align: center;
 }
 
 .designers-title {
@@ -140,6 +161,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .link-card {

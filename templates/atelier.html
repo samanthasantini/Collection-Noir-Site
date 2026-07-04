@@ -10,34 +10,32 @@
 <body>
   {% include "partials/header.html" %}
 
-  <section class="atelier-statement">
+  <section class="atelier-intro">
     <h1 class="statement-text">{{ atelier.statement_1 }}</h1>
-  </section>
-
-  <section class="atelier-narrative">
     <p class="narrative-text">{{ atelier.narrative_1 }}</p>
   </section>
 
-  <section class="atelier-statement">
-    <h2 class="statement-text">{{ atelier.statement_2 }}</h2>
-  </section>
-
-  <section class="atelier-narrative">
-    <p class="narrative-text">{{ atelier.narrative_2 }}</p>
-  </section>
-
-  <section class="founder-block">
+  <section class="founder-photo-text">
     <div class="founder-image-placeholder"></div>
+    <div class="founder-photo-text-copy">
+      <p class="statement-text-inline">{{ atelier.statement_2 }}</p>
+      <p class="narrative-text">{{ atelier.narrative_2 }}</p>
+    </div>
+  </section>
+
+  <section class="founder-quote-block">
     <blockquote class="founder-quote">&ldquo;{{ atelier.founder.quote }}&rdquo;</blockquote>
     <p class="founder-name">{{ atelier.founder.name }}</p>
     <p class="founder-role">{{ atelier.founder.role }}</p>
   </section>
 
-  <section class="designers-section">
-    <p class="section-label">{{ atelier.designers.heading }}</p>
-    <h2 class="designers-title">{{ atelier.designers.title }}</h2>
-    <p class="designers-body">{{ atelier.designers.body }}</p>
-    <a class="designers-cta" href="{{ atelier.designers.cta_href }}">{{ atelier.designers.cta_text }}</a>
+  <section class="designers-section designers-section--right">
+    <div class="designers-inner">
+      <p class="section-label">{{ atelier.designers.heading }}</p>
+      <h2 class="designers-title">{{ atelier.designers.title }}</h2>
+      <p class="designers-body">{{ atelier.designers.body }}</p>
+      <a class="designers-cta" href="{{ atelier.designers.cta_href }}">{{ atelier.designers.cta_text }}</a>
+    </div>
   </section>
 
   <section class="press-section">

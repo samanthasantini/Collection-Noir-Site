@@ -47,9 +47,9 @@
   margin-bottom: 16px;
 }
 
-.founder-quote-block {
-  padding: 40px 48px 64px;
+.founder-quote-wrap {
   text-align: center;
+  margin-top: 48px;
 }
 
 .founder-quote {

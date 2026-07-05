@@ -59,6 +59,7 @@
       "outlets": ["Vogue Living", "Elle Decor", "Livingetc", "Homes & Garden", "Sheerluxe"]
     },
     "continue_links": [
+      {"title": "The Collection", "desc": "Browse the full range, by category.", "cta": "View the collection", "href": "/collection"},
       {"title": "The Materials", "desc": "A guide to the stones, timbers and metals we work with.", "cta": "View materials", "href": "/materials"},
       {"title": "Caring for your piece", "desc": "Guidance for stone, timber and metal, by material.", "cta": "View care guide", "href": "/care"}
     ]

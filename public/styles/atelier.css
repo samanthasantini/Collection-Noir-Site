@@ -104,7 +104,6 @@
   margin-bottom: 20px;
 }
 
-.designers-section,
 .press-section {
   padding: 48px 48px;
   text-align: center;
@@ -165,9 +164,9 @@
 
 .links-block {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-  max-width: 640px;
+  max-width: 760px;
   margin: 0 auto;
   text-align: left;
 }

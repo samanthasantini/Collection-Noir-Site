@@ -1,5 +1,18 @@
 .atelier-intro {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 48px;
   padding: 64px 48px 40px;
+  align-items: center;
+}
+
+.atelier-intro-image-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background: linear-gradient(160deg, #D8C9B8 0%, #C4B39F 100%);
+}
+
+.atelier-intro-copy {
   text-align: left;
 }
 

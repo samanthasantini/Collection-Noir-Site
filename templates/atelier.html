@@ -46,19 +46,6 @@
     </div>
   </section>
 
-  <section class="continue-section">
-    <p class="section-label">Continue exploring</p>
-    <div class="links-block">
-      {% for link in atelier.continue_links %}
-      <a class="link-card" href="{{ link.href }}">
-        <p class="link-title">{{ link.title }}</p>
-        <p class="link-desc">{{ link.desc }}</p>
-        <p class="link-cta">{{ link.cta }}</p>
-      </a>
-      {% endfor %}
-    </div>
-  </section>
-
   <footer class="homepage-footer">
     <div class="footer-left">
       <p class="footer-wordmark">Collection Noir</p>

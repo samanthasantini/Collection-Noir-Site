@@ -86,7 +86,7 @@
 }
 
 .designers-section--right {
-  padding: 48px 48px;
+  padding: 16px 48px 48px;
   text-align: left;
 }
 
@@ -118,9 +118,11 @@
 .designers-title {
   font-family: var(--font-display);
   font-weight: 300;
-  font-size: 22px;
+  font-style: italic;
+  font-size: clamp(20px, 2.4vw, 26px);
+  line-height: 1.35;
   color: var(--color-ink);
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .designers-body {
@@ -128,7 +130,7 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 1.8;
-  color: var(--color-ink);
+  color: var(--color-bark);
   max-width: none;
   margin: 0 0 20px 0;
 }

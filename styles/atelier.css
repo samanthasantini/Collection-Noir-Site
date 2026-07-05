@@ -82,11 +82,12 @@
 
 .designers-section--right {
   padding: 48px 48px;
-  text-align: left;
+  text-align: center;
 }
 
 .designers-inner {
   max-width: 480px;
+  margin: 0 auto;
 }
 
 .section-label {
